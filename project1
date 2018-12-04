@@ -1,0 +1,4 @@
+fileQ=open(against-humanity/questions.txt)
+line = fileQ.readlines()
+r = random.radient(0,len(lines))
+print line(r)
